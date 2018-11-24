@@ -24,5 +24,4 @@ public class UserResourse {
 		List<User> list = service.findAll();
 		return ResponseEntity.ok().body(list);
 	}
-
 }
